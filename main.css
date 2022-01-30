@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+  
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+section{
+    height: 700px;
+
+
+
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(170, 168, 168);
+    border-radius: 3px;
+
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 35px;
+    color: black;
+    
+}
+
+input{
+    width: 40%;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.button-1{
+    padding: 10px;
+    background-color: dodgerblue;
+    height: 10px;
+    padding: 20px;
+    padding-top: 2px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+}
+
+/* END OF HEADER */
+
+.body-content{
+    width: 80%;
+    height: 100%;
+    display: flex;
+ 
+}
+
+.left-side-container{
+    width: 450px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;  
+
+}
+
+.left-box-one{
+    width: 450px;
+    height: 200px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.word-likes{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    
+    
+     
+}
+
+.word{
+    width: 100%;
+}
+
+.word h1{
+    font-weight: 350;
+}
+
+.word h3{
+    font-style: italic;
+    font-weight: 300;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.likes{
+    margin-top: 30px;
+    width: 75%;
+    height: 35px;
+    padding: 10px;
+    margin-left: 15px;
+    background-color: gold;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 450;
+}
+
+
+.left-box-two{
+    width: 450px;
+    height: 200px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    display: flex;
+   
+}
+
+.word-likes-2{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+     
+}
+
+.likes-2{
+    margin-top: 30px;
+    width: 75%;
+    height: 35px;
+    padding: 10px;
+    margin-left: 15px;
+    background-color: gold;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.description-2{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 450;
+    
+}
+
+
+
+/* End of Left side container */
+
+.right-side-container{
+    flex: 1;
+    display: flex;
+    
+    
+
+}
+.right-box-one{
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    border: 2px solid grey;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+
+}
+
+.by-you{
+    margin: 10px 10px;
+
+}
+
+.by-you{
+    font-weight: 500;
+    font-size: larger;
+    
+}
+
+.add-def{
+    margin: 10px 10px;
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    margin-left: 30px;
+    padding-top: 5px;
+    background-color: rgb(128, 192, 128);
+    box-shadow: 5px 5px 5px black;
+    
+
+}

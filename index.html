@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <a href="">
+                    <h1>Dojonary</h1>
+                </a>
+                <input type="text" placeholder="Search">
+                <button class="button-1" onclick="logout(this)">Login</button>
+            </header>
+            <!-- start of body-content -->
+                <div class="body-content">
+
+                    <div class="left-side-container">
+
+                        <!-- start of box-1 -->
+                        <div class="left-box-one">
+                            <div class="word-likes">
+                                <div class="word">
+                                    <h1>ninja</h1>
+                                    <h3>noun</h3>
+                                    <p>Plural: <span>ninjas</span></p>
+                                </div> 
+                                <!-- Onclick -->
+                                <button class="likes" onclick="alert('This page says ninja was liked')">13 likes</butto>
+                            </div>            
+                            <div class="description">
+                                <p>
+                                    A practitioner skilled in the<br>
+                                    <a href="">Japanese</a> art of <a href="">ninjutsu</a>
+                                </p>
+                            </div>      
+                        </div>
+                        <!-- end of box-1 -->
+
+                        <!-- start of box-2 -->
+                        <div class="left-box-two">
+                            <div class="word-likes-2">
+                                <div class="word">
+                                    <h1>ninja</h1>
+                                    <h3>noun</h3>
+                                    <p>Plural: <span>ninjas</span></p>
+                                </div>
+                                <div class="likes-2" onclick>
+                                    <p>37 likes</p>
+                                </div>
+                            </div>
+                            
+                            <div class="description-2">
+                                <p>
+                                    A <a href="">programmer</a> who breaks<br>
+                                    down problems with <a href="">zen</a>-like focus
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side-container">
+                        <div class="right-box-one">
+                            <div class="by-you">
+                                <p>
+                                    Dojonary is<br>
+                                    defined by YOU
+                                </p>
+                            </div>
+                            <!-- onclick -->
+                            <div class="add-def" onclick="hide(this)">
+                                <p>Add Definition</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <script src="/script.js"></script>
+                </div>  
+                <!-- end of body content -->
+                
+
+        </section>
+    
+    </main>
+    
+</body>
+</html>
